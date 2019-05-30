@@ -1,0 +1,36 @@
+spring:
+ application:  
+  name: zhl-test-microservice
+  zhname: 练习项目
+ profiles:
+  active: dev
+  
+server:
+  port: 50000 #端口号
+  
+  
+swagger:
+  enable: true
+  basePackage: com.zhl.www.microservice.controller
+  api:
+    title: Swagger2
+    desc: Swagger2接口文档
+  serviceUrl: http://10.21.3.1:50000/swagger-ui.html
+  version: 1.0.0
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
